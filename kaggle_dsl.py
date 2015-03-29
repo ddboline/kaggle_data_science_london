@@ -72,14 +72,13 @@ def kaggle_dsl_scoring(gauss_train_size=1000):
                 #'kNC6': KNeighborsClassifier(6),
                 #'SVC': SVC(kernel="linear", C=0.025),
                 #'DT': DecisionTreeClassifier(max_depth=5),
-                'RF': RandomForestClassifier(n_estimators=200),
+                'RF': RandomForestClassifier(n_estimators=200),}
                 #'Ada': AdaBoostClassifier(),
                 #'Gauss': GaussianNB(),
                 #'LDA': LDA(),
                 #'QDA': QDA(),
                 #'GMM': GMM(),
-                #'SVC2': SVC(),
-              }
+                #'SVC2': SVC(),}
 
     classifier_list = classifier_dict.values()
     classifier_scores = {}
